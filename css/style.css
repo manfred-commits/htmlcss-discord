@@ -63,6 +63,7 @@ header{
 .header-center-column li a:hover{
     text-decoration: underline;
 }
+/* hero section of the main */
 section.hero{
     background-image: url(../img/jumbo.png); 
     background-position: center;
@@ -94,4 +95,22 @@ section.hero{
 .black-button-formatting{
     color: white;
     background-color: #23272a;
+}
+/* chat section of the main */
+main .chat{
+    color:black;
+    height: 40vh;
+}
+.chat-img{
+    width: 20vh;
+    float: left;
+    width: 50%;
+    object-fit: cover;
+    
+}
+.chat-section-text{
+    float: left;
+    width: 50%;
+    height: 40vh;
+    position: relative;
 }
