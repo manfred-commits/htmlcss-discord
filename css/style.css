@@ -70,7 +70,7 @@ section.hero{
     background-size: cover;
 }
 .hero-banner{
-    height: 45vh;
+    height: 50vh;
     position: relative;
 }
 .centering{
@@ -97,28 +97,37 @@ section.hero{
     background-color: #23272a;
 }
 /* chat section of the main */
-main .chat{
+.chat,
+.voice-chat,
+.account{
     color:black;
     height: 50vh;
-    padding-top: 70px;
+    margin-top: 80px;
 }
-.chat-img-container{
+.left-img-container{
     float: left;
     width: 50%;
 }
-.chat-img{
+.chat-img,
+.voice-img,
+.account-img{
     width: 100%;
     object-fit: cover;    
 }
-.chat-section-text{
+.left-section-text{
     float: left;
     width: 50%;
-    height: 40vh;
+    height: 50vh;
     position: relative;
 }
-.chat-section-text .centering>h2{
+.left-section-text .centering>h2{
     font-size: 30px;
 }
-.chat-section-text .centering>p{
+.left-section-text .centering>p{
     font-size: 18px;
+    margin-top: 20px;
+}
+.right-img-container{
+    float: right;
+    width: 50%;
 }
