@@ -99,18 +99,26 @@ section.hero{
 /* chat section of the main */
 main .chat{
     color:black;
-    height: 40vh;
+    height: 50vh;
+    padding-top: 70px;
 }
-.chat-img{
-    width: 20vh;
+.chat-img-container{
     float: left;
     width: 50%;
-    object-fit: cover;
-    
+}
+.chat-img{
+    width: 100%;
+    object-fit: cover;    
 }
 .chat-section-text{
     float: left;
     width: 50%;
     height: 40vh;
     position: relative;
+}
+.chat-section-text .centering>h2{
+    font-size: 30px;
+}
+.chat-section-text .centering>p{
+    font-size: 18px;
 }
