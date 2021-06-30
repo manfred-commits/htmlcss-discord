@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 body{    
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;    
+    color: white;
 }
 /*header section*/
 header{
@@ -12,9 +13,8 @@ header{
     width: 100%;
     background-color: #3161e0;
     padding-top: 30px;
-    color: white;
 }
-.main-container{
+.layout-container{
     width: 80%;
     margin: auto;
 }
@@ -51,14 +51,47 @@ header{
     line-height: 38.08px;
 }
 .button-formatting{
-    padding: 5px 12px;
+    padding: 7px 12px;
     display: inline-block;
     background-color: white;
     color: black;
     border-radius: 20px;
     border: 0;
     font-size: inherit;
+    margin: 0 10px;
 }
 .header-center-column li a:hover{
     text-decoration: underline;
+}
+section.hero{
+    background-image: url(../img/jumbo.png); 
+    background-position: center;
+    background-size: cover;
+}
+.hero-banner{
+    height: 45vh;
+    position: relative;
+}
+.centering{
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+.layout-container.hero-banner .centering{
+    text-align: center;
+}
+.layout-container.hero-banner .centering> h2{
+    font-size: 50px;
+    padding: 30px 0;
+    margin-bottom: 20px;
+}
+.layout-container.hero-banner  .centering>p{
+    letter-spacing: 2px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.black-button-formatting{
+    color: white;
+    background-color: #23272a;
 }
