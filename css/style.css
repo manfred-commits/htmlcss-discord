@@ -120,6 +120,12 @@ section.hero{
     height: 50vh;
     position: relative;
 }
+.chat-column-text-positioning{
+    padding-bottom: 10px;
+}
+.column-text-positioning{
+    padding-bottom: 90px;
+}
 .left-section-text .centering>h2{
     font-size: 30px;
 }
