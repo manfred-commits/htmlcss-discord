@@ -96,9 +96,8 @@ section.hero{
     color: white;
     background-color: #23272a;
 }
-/* chat section of the main */
+/* chat/voice/account sections of the main */
 .chat,
-.voice-chat,
 .account{
     color:black;
     height: 50vh;
@@ -123,6 +122,16 @@ section.hero{
 .chat-column-text-positioning{
     padding-bottom: 10px;
 }
+.wave,
+.backwards-wave{    
+    height: 20vh;
+    background-image: url(../img/wave.svg);
+    background-size: cover;
+    opacity: 10%;
+}
+.voice-chat{
+    background-color: #E6E6E6;
+}
 .column-text-positioning{
     padding-bottom: 90px;
 }
@@ -132,6 +141,9 @@ section.hero{
 .left-section-text .centering>p{
     font-size: 18px;
     margin-top: 20px;
+}
+.backwards-wave{
+    transform: rotate(180deg);
 }
 .right-img-container{
     float: right;
